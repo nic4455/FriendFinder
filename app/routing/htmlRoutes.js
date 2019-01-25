@@ -11,5 +11,8 @@ module.exports = function(app) {
     app.use(function(request, response) {
         response.sendFile(path.join(__dirname + "/../public/home.html"));
     });
-    
+ 
+    // app.get("", function(request, response) {
+    //     response.sendFile(path.join(__dirname + "/../public/home.html"));
+    // });
 }
